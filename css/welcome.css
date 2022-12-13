@@ -1,0 +1,40 @@
+body{
+    background-color: #232330;
+}
+.box{
+    background-color: #1a1a24;
+}
+h1{
+    color: #629cc4;
+}
+
+.row img{
+    transform: translateY(-78%);
+    -webkit-transform: translateY(-78%);
+    -moz-transform: translateY(-78%);
+    -ms-transform: translateY(-78%);
+    -o-transform: translateY(-78%);
+}
+.logout-box .btn-logout{
+    box-shadow: rgb(89 181 210 / 31%) 0px 10px 30px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    border-radius: 23px;
+    height: 46px;
+    padding: 10px 30px;
+    white-space: nowrap;
+    border: none;
+    background: linear-gradient(228deg, rgba(127, 244, 222, 0.95), rgb(62, 59, 224));
+    color: white;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.logout-box .btn-logout:hover {
+    background: linear-gradient(228deg, rgb(40, 37, 221),rgba(104, 242, 216, 0.95));
+    color: white;
+    box-shadow: rgb(89 181 210 / 50%) 0px 5px 15px 0px;
+}
